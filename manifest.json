@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Inspo Collector",
+  "name": "Moodsy",
   "version": "1.0",
-  "description": "Collect and organize visual inspiration from any website",
+  "description": "Browser-based moodboard tool to capture, tag, and organize visual ideas",
   "permissions": [
     "contextMenus",
     "storage",
