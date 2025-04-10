@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inspo Collector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Inspo Collector</h1>
+      <div class="controls">
+        <input type="text" id="newFolderInput" placeholder="New folder name">
+        <button id="createFolderBtn">Create Folder</button>
+        <select id="folderFilter">
+          <option value="all">All Folders</option>
+        </select>
+        <button id="createMoodboardBtn">Create Moodboard</button>
+      </div>
+    </div>
+    
+    <div class="image-grid" id="imageGrid">
+      <!-- Images will be dynamically added here -->
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
