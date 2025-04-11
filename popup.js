@@ -54,15 +54,19 @@ function createImageCard(image, index) {
   card.className = 'image-card';
   
   card.innerHTML = `
+  <div class="image-wrapper">
     <img src="${image.url}" alt="Saved inspiration">
-    <button class="delete-btn" ><i class="fas fa-trash"></i></button>
-    <div class="image-actions">
-      <select class="folder-select">
-        <option value="Unsorted">Unsorted</option>
-      </select>
-      <input type="text" class="tags-input" placeholder="Add tags (comma-separated)" value="${image.tags.join(', ')}">
-    </div>
-  `;
+    <button class="delete-btn">Remove</button>
+  </div>
+  <div class="image-actions">
+    <select class="folder-select">
+      <option value="Unsorted">Unsorted</option>
+    </select>
+    <input type="text" class="tags-input" placeholder="Add tags (comma-separated)" value="${image.tags.join(', ')}">
+  </div>
+`;
+
+
   // Add event listeners
   const deleteBtn = card.querySelector('.delete-btn');
   const folderSelect = card.querySelector('.folder-select');
