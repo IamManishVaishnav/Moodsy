@@ -16,7 +16,7 @@
     "default_icon": "icons/icon128.png",
     "default_title": "Inspo Collector",
     "default_width": 400,
-    "default_height": 600
+    "default_height": 400
   },
   "icons": {
     "128": "icons/icon128.png"

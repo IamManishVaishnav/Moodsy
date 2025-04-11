@@ -9,8 +9,11 @@
     <div class="header">
       <h1>Moodsy</h1>
       <div class="controls">
-        <input type="text" id="newFolderInput" placeholder="New folder name">
-        <button id="createFolderBtn">Create Folder</button>
+        <button id="newFolderBtn">New Folder</button>
+        <div id="newFolderContainer" style="display: none;">
+          <input type="text" id="newFolderInput" placeholder="New folder name">
+          <button id="createFolderBtn">Create</button>
+        </div>
         <select id="folderFilter">
           <option value="all">All Folders</option>
         </select>

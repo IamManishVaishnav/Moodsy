@@ -67,6 +67,7 @@ function createImageCard(image, index) {
 `;
 
 
+
   // Add event listeners
   const deleteBtn = card.querySelector('.delete-btn');
   const folderSelect = card.querySelector('.folder-select');
@@ -427,7 +428,19 @@ function createMoodboard() {
 
 // Setup event listeners
 function setupEventListeners() {
-  createFolderBtn.addEventListener('click', createNewFolder);
+  const newFolderBtn = document.getElementById('newFolderBtn');
+  const newFolderContainer = document.getElementById('newFolderContainer');
+  
+  newFolderBtn.addEventListener('click', () => {
+    newFolderContainer.style.display = 'flex';
+    newFolderInput.focus();
+  });
+  
+  createFolderBtn.addEventListener('click', () => {
+    createNewFolder();
+    newFolderContainer.style.display = 'none';
+  });
+  
   folderFilter.addEventListener('change', loadImages);
   createMoodboardBtn.addEventListener('click', createMoodboard);
 } 
