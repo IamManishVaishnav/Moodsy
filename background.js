@@ -3,7 +3,7 @@ chrome.runtime.onInstalled.addListener(() => {
   // Create the context menu item
   chrome.contextMenus.create({
     id: "saveToInspoCollector",
-    title: "Save to Inspo Collector",
+    title: "Save to Moodsy",
     contexts: ["image"]
   });
 });

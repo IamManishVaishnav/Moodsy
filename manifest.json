@@ -14,8 +14,8 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icons/icon128.png",
-    "default_title": "Inspo Collector",
-    "default_width": 400,
+    "default_title": "Moodsy",
+    "default_width": 500,
     "default_height": 400
   },
   "icons": {
