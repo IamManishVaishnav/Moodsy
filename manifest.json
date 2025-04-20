@@ -14,11 +14,15 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icons/icon128.png",
-    "default_title": "Moodsy",
-    "default_width": 500,
-    "default_height": 400
+    "default_title": "Moodsy"
   },
   "icons": {
     "128": "icons/icon128.png"
-  }
-} 
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["moodboard.css", "moodboard-export.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
