@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moodsy Moodboard</title>
   <link rel="stylesheet" href="moodboard.css">
 </head>
 <body>
   <div class="moodboard-container">
-    <div class="moodboard-header">
+    <header class="moodboard-header">
       <h1>Moodsy Moodboard</h1>
-      <!-- Global export button -->
-      <!--div class="export-buttons">
-        button class="export-btn" id="exportAll">Export All Folders</button>
-      </div -->
-    </div>
+      <!-- Export functionality (currently disabled)
+      <div class="export-buttons">
+        <button class="export-btn" id="exportAll">Export All Folders</button>
+      </div>
+      -->
+    </header>
     
-    <div id="moodboardContent"></div> <!-- Content will be dynamically populated -->
-
+    <main id="moodboardContent">
+      <!-- Content will be dynamically populated by moodboard.js -->
+    </main>
   </div>
 
   <script src="moodboard.js"></script>

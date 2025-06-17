@@ -1,30 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moodsy</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <div class="header">
+    <header class="header">
       <h1>Moodsy</h1>
       <div class="controls">
-        <button id="newFolderBtn">New Folder</button>
-        <div id="newFolderContainer" style="display: none;">
+        <!-- Folder Management -->
+        <button id="newFolderBtn" class="btn">New Folder</button>
+        <div id="newFolderContainer" class="folder-input" style="display: none;">
           <input type="text" id="newFolderInput" placeholder="New folder name">
-          <button id="createFolderBtn">Create</button>
+          <button id="createFolderBtn" class="btn">Create</button>
         </div>
-        <select id="folderFilter">
+
+        <!-- Navigation and Actions -->
+        <select id="folderFilter" class="select">
           <option value="all">All Folders</option>
         </select>
-        <button id="createMoodboardBtn">Create Moodboard</button>
+        <button id="createMoodboardBtn" class="btn">Create Moodboard</button>
       </div>
-    </div>
+    </header>
     
-    <div class="image-grid" id="imageGrid">
-      <!-- Images will be dynamically added here -->
-    </div>
+    <main class="image-grid" id="imageGrid">
+      <!-- Images will be dynamically added here by popup.js -->
+    </main>
   </div>
+
   <script src="popup.js"></script>
 </body>
 </html> 
