@@ -93,11 +93,12 @@
   <img width="1920" height="1080" alt="Untitled design (34)" src="https://github.com/user-attachments/assets/e57ade53-08ea-4392-8637-a4bd370ddf69" />
 
 
-  <!-- CONTACT -->
-  ## Contact
+<!-- CONTACT -->
+## Contact
 
-  Manish Vaishnav – ((https://www.linkedin.com/in/manish-vaishnav-4659b0256/)) 
-  manish.uiux02@gmail.com 
+**Manish Vaishnav** – [LinkedIn](https://www.linkedin.com/in/manish-vaishnav-4659b0256)  
+**Email** – manish.uiux02@gmail.com
+
 
   
 
