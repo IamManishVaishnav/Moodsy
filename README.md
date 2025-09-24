@@ -96,7 +96,8 @@
   <!-- CONTACT -->
   ## Contact
 
-  Your Name – [LinkedIn]((https://www.linkedin.com/in/manish-vaishnav-4659b0256/)) – manish.uiux02@gmail.com 
+  Manish Vaishnav – ((https://www.linkedin.com/in/manish-vaishnav-4659b0256/)) 
+  manish.uiux02@gmail.com 
 
   
 
